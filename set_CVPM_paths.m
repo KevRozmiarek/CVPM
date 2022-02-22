@@ -29,10 +29,11 @@
 
 % Set CVPM working directory
 
- wdir = '~/thermal/numer/CVPM_v1.1';
-
+% wdir = '~/thermal/numer/CVPM_v1.1';
+ wdir = '~/Documents/Permafrost thermal modelling/CVPM';
+ 
  addpath( wdir,                '-end')
- addpath([wdir '/AK_projects'],'-end')
+% addpath([wdir '/AK_projects'],'-end')
  addpath([wdir '/source'],     '-end')
  addpath([wdir '/utilities'],  '-end')
  savepath
